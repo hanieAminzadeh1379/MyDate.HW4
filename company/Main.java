@@ -1,4 +1,6 @@
-package com.company;
+package company;
+
+import company.MyDate;
 
 import java.util.Scanner;
 
@@ -16,6 +18,6 @@ public class Main {
         MyDate myDate=new MyDate();
         System.out.println( myDate.isValidDate(year,month,day));
         System.out.println(myDate.toString(year,month,day));
-
+        System.out.println(myDate.nextDay());
     }
 }
